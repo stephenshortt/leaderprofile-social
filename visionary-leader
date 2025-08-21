@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visionary Leader - Leadership Style Profile</title>
+    <meta name="description" content="Innovative and forward-thinking leader who creates compelling visions of the future">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://social.leadershipprofile.com/visionary_leader.html">
+    <meta property="og:title" content="Visionary Leader - Leadership Style Profile">
+    <meta property="og:description" content="Innovative and forward-thinking leader who creates compelling visions of the future">
+    <meta property="og:image" content="https://rdlfottvwfunphoyxwzf.supabase.co/storage/v1/object/public/images/1752245042921-3rrx3h8vh7x.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://social.leadershipprofile.com/visionary_leader.html">
+    <meta property="twitter:title" content="Visionary Leader - Leadership Style Profile">
+    <meta property="twitter:description" content="Innovative and forward-thinking leader who creates compelling visions of the future">
+    <meta property="twitter:image" content="https://rdlfottvwfunphoyxwzf.supabase.co/storage/v1/object/public/images/1752245042921-3rrx3h8vh7x.jpg">
+    
+    <!-- LinkedIn -->
+    <meta property="linkedin:title" content="Visionary Leader - Leadership Style Profile">
+    <meta property="linkedin:description" content="Innovative and forward-thinking leader who creates compelling visions of the future">
+    
+    <script>
+        // Redirect to React app for real users (not crawlers)
+        if (!navigator.userAgent.includes('facebookexternalhit') && 
+            !navigator.userAgent.includes('Twitterbot') && 
+            !navigator.userAgent.includes('LinkedInBot') &&
+            !navigator.userAgent.includes('WhatsApp')) {
+            window.location.replace('https://leadershipprofile.com/leadership-style/visionary_leader');
+        }
+    </script>
+</head>
+<body>
+    <h1>Visionary Leader</h1>
+    <p>Innovative and forward-thinking leader who creates compelling visions of the future</p>
+    <p>Redirecting to full profile...</p>
+</body>
+</html>
