@@ -1,76 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I'm a People-Centred Leader - what's your Leadership Profile?</title>
-    <meta name="description" content="I'm a People-Centred Leader - discover your leadership style and unlock your potential. Take the free assessment to find your leadership profile.">
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://social.leadershipprofile.com/people-centred-leader.html">
-    <meta property="og:title" content="I'm a People-Centred Leader - what's your Leadership Profile?">
-    <meta property="og:description" content="I'm a People-Centred Leader - discover your leadership style and unlock your potential. Take the free assessment to find your leadership profile.">
-    <meta property="og:image" content="https://social.leadershipprofile.com/people-centred-leader.jpg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://social.leadershipprofile.com/people-centred-leader.html">
-    <meta name="twitter:title" content="I'm a People-Centred Leader - what's your Leadership Profile?">
-    <meta name="twitter:description" content="I'm a People-Centred Leader - discover your leadership style and unlock your potential. Take the free assessment to find your leadership profile.">
-    <meta name="twitter:image" content="https://social.leadershipprofile.com/people-centred-leader.jpg">
-    
-    <!-- LinkedIn specific tags -->
-    <meta name="author" content="Leadership Profile">
-    <meta name="linkedin:owner" content="">
-    
-    <!-- Additional meta tags for better social sharing -->
-    <meta property="article:author" content="Leadership Profile">
-    <meta property="og:site_name" content="Leadership Profile">
-    <meta property="og:locale" content="en_US">
-    
-    <script>
-        // More robust redirect handling that preserves query parameters
-        function redirectToApp() {
-            try {
-                // Check if we're a crawler/bot
-                const userAgent = navigator.userAgent.toLowerCase();
-                const isCrawler = userAgent.includes('facebookexternalhit') || 
-                                 userAgent.includes('twitterbot') || 
-                                 userAgent.includes('linkedinbot') ||
-                                 userAgent.includes('whatsapp') ||
-                                 userAgent.includes('bot') ||
-                                 userAgent.includes('crawler');
-                
-                if (!isCrawler) {
-                    // Preserve any existing query parameters
-                    const currentParams = window.location.search;
-                    const targetUrl = 'https://leadershipprofile.com/leadership-style/people_centred_leader' + currentParams;
-                    
-                    // Use setTimeout to avoid blocking the page load
-                    setTimeout(() => {
-                        window.location.href = targetUrl;
-                    }, 100);
-                }
-            } catch (error) {
-                // Fallback for any errors - just show the static content
-                console.log('Redirect failed, showing static content');
-            }
-        }
-        
-        // Run redirect when page loads
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', redirectToApp);
-        } else {
-            redirectToApp();
-        }
-    </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I'm a People-Centred Leader - what's your Leadership Profile?</title>
+  <meta name="description" content="I'm a People-Centred Leader - discover your leadership style and unlock your potential. Take the free assessment to find your leadership profile.">
+  <link rel="canonical" href="https://social.leadershipprofile.com/people-centred-leader.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Leadership Profile">
+  <meta property="og:url" content="https://social.leadershipprofile.com/people-centred-leader.html">
+  <meta property="og:title" content="I'm a People-Centred Leader - what's your Leadership Profile?">
+  <meta property="og:description" content="I'm a People-Centred Leader - discover your leadership style and unlock your potential. Take the free assessment to find your leadership profile.">
+  <meta property="og:image" content="https://social.leadershipprofile.com/people-centered-leader.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://social.leadershipprofile.com/people-centred-leader.html">
+  <meta name="twitter:title" content="I'm a People-Centred Leader - what's your Leadership Profile?">
+  <meta name="twitter:description" content="I'm a People-Centred Leader - discover your leadership style and unlock your potential. Take the free assessment to find your leadership profile.">
+  <meta name="twitter:image" content="https://social.leadershipprofile.com/people-centered-leader.jpg">
+
+  <script>
+    (function () {
+      const ua = navigator.userAgent.toLowerCase();
+      const isCrawler =
+        ua.includes('facebookexternalhit') ||
+        ua.includes('twitterbot') ||
+        ua.includes('linkedinbot') ||
+        ua.includes('whatsapp') ||
+        ua.includes('slackbot') ||
+        ua.includes('embedly') ||
+        ua.includes('pinterest') ||
+        ua.includes('vkshare') ||
+        ua.includes('redditbot');
+      if (!isCrawler) {
+        window.location.replace('/leadership-style/people-centred-leader');
+      }
+    })();
+  </script>
 </head>
 <body>
-    <h1>I'm a People-Centred Leader - what's your Leadership Profile?</h1>
-    <p>Discover your leadership style and unlock your potential. Take the free assessment to find your leadership profile.</p>
-    <p>Redirecting to full profile...</p>
+  <h1>I'm a People-Centred Leader - what's your Leadership Profile?</h1>
+  <p>I'm a People-Centred Leader - discover your leadership style and unlock your potential. Take the free assessment to find your leadership profile.</p>
+  <p>Redirecting to full profile...</p>
 </body>
 </html>
